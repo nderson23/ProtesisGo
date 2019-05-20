@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "Inicio";
+}
+<br />
+<br />
+<br />
+<br />
+    <section class="banner-sec">
+        <div class="container">
+            <div class="row">
+                <!--Servicios que ofrece este sitio web-->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="img-fluid" src="~/Images/Cita.jpg" alt="">
+                        <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Citas</span> </div>
+                        <div class="card-body">
+                            <div class="news-title">
+                                <h2 class=" title-small"><a href="#">@Html.ActionLink("Agendar cita por primera vez", "AgendarCita", "AgendarCita")</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="img-fluid" src="~/Images/Entrega.jpg" alt="">
+                        <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Entrega Pr&oacutetesis</span> </div>
+                        <div class="card-body">
+                            <div class="news-title">
+                                <h2 class=" title-small"><a href="#">@Html.ActionLink(" Entrega Protesis", "Tratamiento", "Tratamiento")</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="img-fluid" src="~/Images/Paciente.jpg" alt="">
+                        <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Paciente</span> </div>
+                        <div class="card-body">
+                            <div class="news-title">
+                                <h2 class=" title-small"><a href="#">Nuevo paciente</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="img-fluid" src="~/Images/Reportee.jpg" style="height:160px;" alt="">
+                        <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Reportes Internos</span> </div>
+                        <div class="card-body">
+                            <div class="news-title">
+                                <h2 class=" title-small"><a href="#">@Html.ActionLink("Reportes Internos", "Reporte", "Reporte")</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--./Servicios que ofrece este sitio web-->
+                <div class="col-md-6 top-slider">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Imagen relacionada con la empresa -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="news-block">
+                                    <div class="news-media"><img class="img-fluid" src="~/Images/Final.jpg" alt=""></div>
+                                    <div class="news-title">
+                                        <h2 class=" title-large"><a href="#">Solicita tu protesis</a></h2>
+                                    </div>
+                                    <div class="news-des">Puedes solicitar tu prótesis con nosotros, no importa la edad o el género. El único requisito es que estés física y mentalmente preparado(a) para volver a empezar.</div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
